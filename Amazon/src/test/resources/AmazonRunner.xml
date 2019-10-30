@@ -12,7 +12,7 @@
 
     <test name="Automation tests">
         <classes>
-            <class name="homepagetests.LogInAmazonTest"/>
+            <class name="practiceForBootCampTest.AmazonPracticeTest1"/>
         </classes>
     </test>
 </suite>

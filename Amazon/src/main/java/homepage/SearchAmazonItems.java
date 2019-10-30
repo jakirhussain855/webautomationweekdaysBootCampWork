@@ -19,6 +19,7 @@ public class SearchAmazonItems extends CommonAPI {
     public void SearchForCardiganSweaters() {
         SearchItem.sendKeys("cardigan for men");
         SearchItem.click();
+        sleepFor(1);
         Assert.assertEquals(SearchItem.isDisplayed(),true);
         sleepFor(1);
     }
@@ -26,6 +27,7 @@ public class SearchAmazonItems extends CommonAPI {
     public void ClickButtonForSearchingCardigan() {
         captureScreenshot(new ChromeDriver(), ("d"));
         clickON.click();
+        sleepFor(3);
          Assert.assertEquals(clickON.isEnabled(),true,"not enable");
     }
 
