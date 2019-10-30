@@ -1,4 +1,4 @@
-package practiceForBootCamp;
+package AmazonQuickValid;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;

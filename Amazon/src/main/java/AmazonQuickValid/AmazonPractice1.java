@@ -1,9 +1,8 @@
-package practiceForBootCamp;
+package AmazonQuickValid;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 public class AmazonPractice1 extends CommonAPI {
